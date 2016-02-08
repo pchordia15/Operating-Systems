@@ -1,0 +1,46 @@
+/*int removeProcess(int pid){
+  for(i = 0; i<4; i++)
+  {
+  if(front[i] != NULL && front[i]->value == pid)
+  {
+  temp = front[i];
+  front[i] = front[i]->next;
+  free(temp);
+  temp = NULL;
+  return 1;
+  }
+  else if(front[i] != NULL)
+  {
+  temp = front[i];
+  temp1 = temp->next;
+  while(temp1->next != NULL && temp1->value != pid)
+  {
+  temp = temp1;
+  temp1 = temp1->next;
+  }
+  temp2 = front[i];
+  while(temp2->next == temp)
+  {
+  if(temp->next == NULL)
+  {
+  temp2->next == NULL;
+  free(temp);
+  temp = NULL;
+  }
+  else
+  {
+  temp2->next == temp1;
+  free(temp);
+  temp = NULL;
+  }
+  }
+  return 1;
+  }
+  else
+  {
+  free(front);
+  return 1;
+  }*
+  }
+  return 0;
+  }*/
